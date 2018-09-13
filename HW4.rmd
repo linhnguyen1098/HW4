@@ -22,7 +22,7 @@ b) P(Z > 1.48) =
 pnorm(c(1.48), mean=0, sd=1, 
   lower.tail=FALSE)
 ```
-c) P(-0.4 < Z < 1.5) =   
+c) P(-0.4 < Z < 1.5)
 ```{r}
 pnorm(c(1.5), mean=0, sd=1, 
   lower.tail=TRUE) - pnorm(c(-0.4), mean=0, sd=1, 
@@ -35,21 +35,22 @@ pnorm(c(2.0), mean=0, sd=1,
   lower.tail=TRUE)
 ```
 ### Q2
-
-
+a) P(Z > -1.13) =   
 ```{r}
 pnorm(c(-1.13), mean=0, sd=1, 
   lower.tail=FALSE)
 ```
-
+b) P(Z < 0.18) =  
 ```{r}
 pnorm(c(0.18), mean=0, sd=1, 
   lower.tail=TRUE)
 ```
+c) P(Z > 8) =  
 ```{r}
 pnorm(c(8.0), mean=0, sd=1, 
   lower.tail=FALSE)
 ```
+d) P(| Z | < 0.5) =  
 ```{r}
 pnorm(c(0.5), mean=0, sd=1, 
   lower.tail=TRUE) - pnorm(c(-0.5), mean=0, sd=1, 
